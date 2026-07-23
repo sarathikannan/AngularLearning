@@ -7,4 +7,22 @@ import { SidaBarItem } from "./sida-bar-item/sida-bar-item";
   templateUrl: './side-bar.html',
   styleUrl: './side-bar.css',
 })
-export class SideBar {}
+export class SideBar {
+
+   routes = [
+
+    {
+      path: '/home',
+      name: 'Home'
+    },
+    {
+      path: '/Notes',
+      name: 'Notes'
+    }
+    ,
+    {
+      path:'/Trash',
+      name:'Trash'
+    }
+  ]
+}
